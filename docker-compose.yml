@@ -4,7 +4,7 @@ services:
         build: .
         ports: 
             - "8001:80"
-        container_name: backend
+        container_name: backend_sist_cont
         volumes:
             - ./www:/var/www/html/
         links:
@@ -15,7 +15,7 @@ services:
         image: mysql:8.0
         ports: 
             - "3306:3306"
-        container_name: mysql
+        container_name: mysql_sist_cont
         command: --default-authentication-plugin=mysql_native_password
         environment:
             MYSQL_USER: user
