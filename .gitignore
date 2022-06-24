@@ -1,0 +1,21 @@
+# archivos
+*.pdf
+*.PDF
+*.xlsx
+*.xls
+*.jpg
+*.png
+*.jpeg
+*.xml
+*.pptx
+*.exe
+*.apk
+*.jfif
+# archivo con informacion de la empresa
+security.php
+*.patch
+**/SBSE*
+*.patch
+*.db
+
+# carpetas
