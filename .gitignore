@@ -19,3 +19,9 @@ security.php
 *.db
 
 # carpetas
+www/README.md
+www/PRO_UPGRADE.txt
+www/gulpfile.js
+www/LICENCE
+www/package-log.json
+www/package.json
