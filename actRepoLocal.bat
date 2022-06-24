@@ -1,2 +1,2 @@
 echo @off
-start "" "C:\Program Files\Git\git-bash.exe" -l -i -c "cd C:/Apache24/htdocs/cebsappdev/www/;sh C:/Apache24/htdocs/cebsappdev/refreshLocalRepo.sh"
+start "" "C:\Program Files\Git\git-bash.exe" -l -i -c "cd ruta_del_repo;sh ruta_del_archivo/refreshLocalRepo.sh"

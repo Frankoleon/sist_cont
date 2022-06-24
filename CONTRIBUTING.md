@@ -44,11 +44,11 @@ Con lo anterior podras hacer fetch de la rama develop de master con lo que tendr
 
     git  pull rrpu develop
 
-### Tarea programa que actualiza produccion
+### Tarea programada que actualiza produccion
 
-    git fetch url-repositorio
-    git merge develop
-    git push
+* Debes de poner el archivo actRepoLocal.bat en el equipo donde quieres que se actualice el repositorio
+* En el archivo actRepoLocal.bat ajustas el contenido con las rutas correspondientes
+* Creas una tarea programada que ejecute ese archivo que a su vez ejecuta el archivo refreshLocalRepo.sh
 
 ### Guias de estilo
 
